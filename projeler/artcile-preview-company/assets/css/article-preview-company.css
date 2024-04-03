@@ -1,0 +1,60 @@
+@font-face {
+    font-family: manrope;
+    src: url(/assets/fonts/Manrope-Regular.ttf);
+}
+body {
+    background: rgba(236, 242, 248, 1);
+    font-family: manrope;
+}
+.content {
+    width: 327px;
+    border-radius: 10px;
+    background: white;
+    margin-inline: auto;
+    margin-block: 50px;
+}
+.header {
+    margin-top: 36px;
+    margin-inline: 32px;
+    letter-spacing: 0.2px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(72, 85, 106, 1);
+}
+.text {
+    width: 256px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: .12px;
+    margin-inline: 32px;
+    margin-bottom: 20px;
+    color: rgba(110, 128, 152, 1);
+    
+}
+.footer {
+    background: rgba(72, 85, 106, 1);
+    border-radius: 0px 0px 10px 10px; 
+    padding: 10px;
+}
+.social {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    left: 22px;
+}
+.social p{
+font-size: 13px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 5px;
+text-align: left;
+color: rgba(157, 174, 194, 1);
+}
+.icon{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}

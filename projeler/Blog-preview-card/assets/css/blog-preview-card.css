@@ -1,0 +1,57 @@
+@font-face {
+    font-family: figtree;
+    src: url(/assets/fonts/Figtree-Regular.ttf);
+}
+*{
+    font-family: figtree;
+}
+body{
+    background: rgba(244, 208, 78, 1);
+}
+.card{
+    background-color: white;
+    border: 1px solid black;
+    padding: 24px;
+    width: 360px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 1);
+    margin-inline: auto;
+    margin-block: 100px;
+}
+.content{
+    width: 360px;
+    margin-top: 24px;
+}
+.learn{
+    background: rgba(244, 208, 78, 1);
+    border-radius: 4px;
+    padding: 4px 12px 4px 12px;
+    display: inline;
+}
+.publish{
+    font-size: 14px;
+}
+.header {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.comment{
+    font-size: 16px;
+    color: rgba(127, 127, 127, 1);
+    font-weight: 500;
+    margin-top: 12px;
+}
+
+.author{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.author img{
+    width: 32px;
+    height: 32px;
+}
+.authorn {
+    font-weight: 800;
+}

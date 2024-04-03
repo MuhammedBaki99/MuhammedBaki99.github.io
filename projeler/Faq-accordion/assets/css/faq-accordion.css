@@ -1,0 +1,48 @@
+@font-face {
+    font-family: worksans;
+    src: url(/assets/fonts/WorkSans-Regular.ttf);
+}
+body{
+    background-image: url(/assets/img/background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: rgba(248, 238, 255, 1);
+}
+.content {
+    width: 450px;
+    border-radius: 16px;
+    padding: 40px;
+    margin-inline:auto;
+    box-shadow: 0px 32px 56px 0px rgba(80, 0, 118, 0.1);
+    background-color: white;
+    position: relative;
+    top: 100px;
+}
+.header p {
+    display: inline;
+    font-weight: 700;
+    font-size: 56px;
+}
+.summary details {
+    margin-bottom: 24px;
+    margin-top: 24px;
+}
+.summary summary{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21.11px;
+}
+.summary summary:hover{
+    color: rgba(173, 40, 235, 1);
+    cursor: pointer;
+}
+.summary p{
+    width: 435px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: rgba(139, 105, 144, 1);
+}
+hr {
+    border: 1px solid rgba(248, 238, 255, 1);
+}

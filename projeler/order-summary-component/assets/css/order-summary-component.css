@@ -1,0 +1,49 @@
+@font-face {
+    font-family: redhat;
+    src: url(/assets/fonts/RedHatDisplay-Regular.ttf);
+}
+body{
+    background: rgba(224, 232, 255, 1);
+}
+*{
+    font-family: redhat;
+    text-align: center;
+}
+.content{
+    background-color: white;
+    margin-inline:auto;
+    border-radius: 20px;
+    width: 450px;
+    margin-block:100px;
+    padding-bottom: 15px;
+}
+h2{
+    font-size: 28px;
+    font-weight: 900;
+    margin-top: 56px;
+    margin-bottom: 17px;
+    color:  rgba(31, 46, 85, 1);
+}
+.text {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(113, 127, 166, 1);
+    margin-inline:48px;
+    margin-bottom: 58.48px;
+}
+button{
+    width: 354px;
+    padding: 15px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    background-color: rgba(56, 42, 225, 1);
+    box-shadow: 0px 20px 20px 0px rgba(56, 42, 225, 0.19);
+    font-weight: 900;
+}
+.cancel {
+    font-weight: 900;
+    font-size: 15px;
+    color: rgba(113, 127, 166, 1);
+    margin-bottom: 53px;
+}
