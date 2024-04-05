@@ -1,0 +1,70 @@
+@font-face {
+    font-family: montserrat;
+    src: url(/assets/fonts/Montserrat-Regular.ttf);
+}@font-face {
+    font-family: opensans;
+    src: url(/assets/fonts/OpenSans_Condensed-Regular.ttf);
+}
+body{
+    background-image: linear-gradient(to top right,rgba(231, 53, 53, 1), rgba(165, 67, 67, 1));
+    background-repeat: no-repeat;
+    margin: 0;
+    color: white;
+}
+.page1 {
+    display: flex;
+    justify-content: space-between;
+}
+.img {
+    margin-top: 133px;
+    float: right;
+    z-index: 1;
+}
+.comment {
+    width: 400px;
+    margin-top: 170px;
+    margin-left: 200px;
+    z-index: 2;
+}
+.comment h1{
+    font-family: montserrat;
+    font-weight: 700;
+    font-size: 140px;
+    line-height: 127px;
+    letter-spacing: -1.58px;
+    margin-bottom: 35px;
+}
+.comment h5 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+}
+.price {
+    width: 350px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-left: none;
+    display: flex;
+    padding: 0;
+    gap: 30px;
+    border-radius: 70px;
+    background-color: transparent;
+    margin-bottom: 34px;
+}
+.price img{
+    background-color:rgba(255, 193, 7, 1);
+    padding: 50px;
+    border-radius:70px;
+}
+.price h3{
+    font-family: montserrat;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.4px;
+    color: white;
+    text-align: center;
+}
+.time {
+    display: flex;
+    gap: 20px;
+}

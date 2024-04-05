@@ -1,0 +1,49 @@
+@font-face {
+    font-family: montserrat;
+    src: url(/assets/fonts/Montserrat-Regular.ttf);
+}
+*{
+    font-family: montserrat;
+}
+body{
+    margin: 0;
+    background-image: url(/assets/img/Sharp.jpg);
+    background-repeat: no-repeat;
+    background-color: gainsboro;
+}
+.content{
+    width: 1440px;
+    height: 1280px;
+}
+.page1{
+    margin-inline: 260px;
+    margin-block: 354px;
+    color: white;
+    text-align: center;
+}
+.page1 h2{
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 81px;
+    letter-spacing: -0.9px;
+}
+.page1 p{
+    width: 720px;
+    margin-inline: 100px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: -0.35px;
+}
+button {
+    width: 214px;
+    padding: 16px 40px 16px 40px;
+    border-radius: 32px;
+    background: rgba(9, 75, 172, 1);
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 32px;
+
+}
