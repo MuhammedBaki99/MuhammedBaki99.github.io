@@ -7,7 +7,7 @@
 }
 body{
     margin: 0;
-    background-image: url(/assets/img/Sharp.jpg);
+    background-image: url(assets/img/Sharp.jpg);
     background-repeat: no-repeat;
     background-color: gainsboro;
 }
