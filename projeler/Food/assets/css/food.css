@@ -217,7 +217,7 @@ font-family: montserrat;
 .img1 {
   background-image: url('../img/Image.png');
   background-repeat: no-repeat;
-  padding: 16px 16px 333px 393px;
+  padding: 16px 10px 333px 393px;
 }
 .img1 p{
   background-color: white;
@@ -233,7 +233,7 @@ font-family: montserrat;
 .img2 {
   background-image: url('../img/Image1.png');
   background-repeat: no-repeat;
-  padding: 16px 16px 333px 393px;
+  padding: 16px 10px 333px 393px;
 }
 .img2 p{
   background-color: white;
