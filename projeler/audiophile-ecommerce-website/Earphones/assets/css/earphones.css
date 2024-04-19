@@ -1,0 +1,351 @@
+@font-face {
+  font-family: manrope;
+  src: url('../fonts/Manrope-Bold.ttf');
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+  font-family: manrope;
+}
+
+/* Nav Codes */
+.nav {
+  padding-inline: 165px;
+}
+
+.navbar {
+  padding: 34px 0px;
+  width: 1110px;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.nav-urls ul {
+  display: flex;
+  gap: 34px;
+  list-style-type: none;
+}
+
+.nav-urls ul a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-urls ul a:hover {
+  color: rgba(216, 125, 74, 1);
+}
+
+.shopping-cart:hover {
+  color: rgba(216, 125, 74, 1);
+  cursor: pointer;
+}
+
+/****************************/
+/* Section 01 Codes */
+.section01 {
+  background: black;
+  padding-bottom: 97px;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.heading {
+  margin-top: 225px;
+  width: 500px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 44px;
+  letter-spacing: 1.43px;
+}
+
+/***************/
+/* YX1 Codes */
+.YX1 {
+  margin: 160px auto;
+  width: 1110px;
+  display: flex;
+  gap: 125px;
+}
+
+.YX1-desc {
+  margin-block: 109px;
+}
+
+.YX1-desc h5 {
+  color: #D87D4A;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19.12px;
+  letter-spacing: 10px;
+  margin-bottom: 16px;
+}
+
+.YX1-desc h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 44px;
+  letter-spacing: 1.43px;
+  margin-bottom: 32px;
+}
+
+.YX1-desc p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  margin-bottom: 40px;
+  opacity: 50%;
+}
+
+.see-product-url {
+  background-color: #D87D4A;
+  width: 99px;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  color: white;
+  padding: 15px 31px;
+  text-decoration: none;
+}
+
+.see-product-url:hover {
+  background-color: #FBAF85;
+}
+
+/******************************/
+/* Section02 Codes */
+.section02 {
+  padding-top: 100px;
+}
+
+.content {
+  margin-inline: auto;
+  width: 1150px;
+  display: flex;
+  gap: 30px;
+  padding-top: 100px;
+  padding-left: 20px;
+  border-radius: 10px;
+}
+
+.product {
+  position: relative;
+  width: 350px;
+  height: 230px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background: rgba(241, 241, 241, 1);
+}
+
+.shadow {
+  width: 130px;
+  height: 25px;
+  background: rgba(0, 0, 0, 1);
+  border-radius: 50%;
+  opacity: .2;
+  filter: blur(3px);
+  position: relative;
+  top: -10px;
+}
+
+.head {
+  width: 122px;
+  margin-inline: auto;
+  position: relative;
+  top: -80px;
+}
+
+.head h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1.29px;
+  margin-top: 20px;
+}
+
+.head p {
+  display: inline;
+  vertical-align: middle;
+  opacity: 50%;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  margin-top: 20px;
+}
+
+.arrow {
+  color: rgba(216, 125, 74, 1);
+  opacity: 100%;
+}
+
+.speak {
+  width: 122px;
+  margin-inline: auto;
+  position: relative;
+  top: -80px;
+}
+
+.speak h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1.29px;
+  margin-top: 20px;
+}
+
+.speak p {
+  display: inline;
+  vertical-align: middle;
+  opacity: 50%;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  margin-top: 20px;
+}
+
+.ear {
+  width: 122px;
+  margin-inline: auto;
+  position: relative;
+  top: -80px;
+}
+
+.ear h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1.29px;
+  margin-top: 30px;
+}
+
+.ear p {
+  display: inline;
+  vertical-align: middle;
+  opacity: 50%;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  margin-top: 20px;
+}
+
+/************************/
+/* Section 06 Codes */
+.section06 {
+  display: flex;
+  align-items: center;
+  padding-block: 160px;
+}
+
+.content3 {
+  margin: 0 auto;
+  width: 1110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 125px;
+}
+
+.desc3 {
+  width: 445px;
+}
+
+.desc3 h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 44px;
+  letter-spacing: 1.43px;
+  margin-bottom: 32px;
+}
+
+.desc3 h2 span {
+  color: rgba(216, 125, 74, 1);
+}
+
+.desc3 p {
+  opacity: 50%;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+/********************/
+/* Footer Codes */
+.footer {
+  padding-inline: 165px;
+  background-color: black;
+  padding-top: 75px;
+  padding-bottom: 48px;
+}
+
+.footer-navbar {
+  background-color: black;
+  margin: 0 auto;
+  width: 1110px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-urls ul {
+  display: flex;
+  gap: 34px;
+  list-style-type: none;
+}
+
+.nav-urls ul a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-urls ul a:hover {
+  color: rgba(216, 125, 74, 1);
+}
+
+.basket {
+  color: white;
+  font-size: 23px;
+  cursor: pointer;
+}
+
+.basket:hover {
+  color: rgba(216, 125, 74, 1);
+}
+
+.footer-details {
+  margin: 0 auto;
+  width: 1110px;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  margin-top: 36px;
+}
+
+.footer-desc {
+  width: 540px;
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+}
+
+.footer-social {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+svg:hover {
+  fill: rgba(216, 125, 74, 1);
+  cursor: pointer;
+}
+
+/*********************/
