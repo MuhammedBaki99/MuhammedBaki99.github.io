@@ -1,0 +1,345 @@
+@font-face {
+  font-family: dmsans;
+  src: url('../fonts/DMSans_18pt-Regular.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: dmsans;
+  transition: all 1s;
+}
+
+/* Navbar Codes */
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  padding-block: 18px;
+  align-items: center;
+}
+
+.header-menu {
+  display: flex;
+  gap: 37px;
+}
+
+.header-menu a {
+  color: black;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15.62px;
+  letter-spacing: 2px;
+  text-align: left;
+}
+
+.header>a {
+  padding: 12px 24px;
+  background-color: black;
+  width: 158px;
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15.62px;
+  letter-spacing: 2px;
+  text-align: left;
+}
+
+/**************************************/
+
+/* Hero Codes */
+.hero {
+  background-image: url('../img/hero.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.hero-text {
+  width: 387px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-top: 122px;
+  padding-left: 112px;
+  padding-bottom: 122px;
+  text-align: center;
+}
+.hero-text h5 {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-align: left;
+}
+
+.hero-text h1 {
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 4.166666507720947px;
+  text-align: left;
+}
+
+.hero-text h6 {
+  font-size: 13px;
+  font-weight: 400;
+  text-align: left;
+
+}
+
+.hero-text span {
+  opacity: 75%;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.hero-text p {
+  width: 387px;
+  opacity: 60%;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.hero-text a {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+/* Gallery Codes */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.gallery-text {
+  margin-top: 150px;
+  padding-top: 190px;
+  color: white;
+  padding-inline: 40px;
+  padding-bottom: 40px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.27%, rgba(0, 0, 0, 0.661222) 100%);
+}
+
+.gallery-text h6 {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16.93px;
+  text-align: left;
+  margin-bottom: 4px;
+}
+
+.gallery-text h3 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: left;  
+  margin-bottom: 4px;
+}
+
+.gallery-text > p {
+font-size: 13px;
+font-weight: 400;
+line-height: 16.93px;
+border-bottom: 2px solid rgba(128, 128, 128, 0.319);
+padding-bottom: 16px  ;
+}
+
+.read-story {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 20px;
+}
+
+.read-story a {
+  color: white;
+  text-decoration: none;
+}
+.gallery div:hover {
+  transform: translateY(-24px);
+}
+
+.The-Mountains {
+  background-image: url('../img/photo1.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.Sunset-Cityscapes {
+  background-image: url('../img/photo2.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.Days-Voyage {
+  background-image: url('../img/photo3.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.Architecturals {
+  background-image: url('../img/photo4.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.World-Tour-2019 {
+  background-image: url('../img/photo5.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.Unforeseen-Corners {
+  background-image: url('../img/photo6.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.King-on-Africa {
+  background-image: url('../img/photo7.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.by-Tim-Hillenburg {
+  background-image: url('../img/photo8.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.Rage-of-The-Sea {
+  background-image: url('../img/photo9.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.Running-Free {
+  background-image: url('../img/photo10.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.Behind-the-Waves {
+  background-image: url('../img/photo11.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.Calm-Waters {
+  background-image: url('../img/photo12.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.The-Milky-Way {
+  background-image: url('../img/photo13.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.Night-at-The-Dark-Forest {
+  background-image: url('../img/photo14.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.Somwarpet-s-Beauty {
+  background-image: url('../img/photo15.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.Land-of-Dreams {
+  background-image: url('../img/photo16.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: block;
+}
+
+/***************************************/
+
+
+
+
+
+/**************************************************/
+
+
+
+
+
+.footer {
+  display: flex;
+  background-color: black;
+  padding: 64px;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-inline: auto;
+  width: 1110px;
+}
+
+.social-link {
+  display: flex;
+  flex-direction: column;
+  gap: 85px;
+  margin-right: 109px;
+}
+
+.social-links {
+  display: flex;
+  gap: 13px;
+}
+
+.footer-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  margin-right: 402px;
+}
+
+.footer-menu a {
+  text-decoration: none;
+  color: white;
+  gap: 19px;
+}
+
+.footer-end {
+  display: flex;
+  flex-direction: column;
+  gap: 86px;
+}
+
+.footer-end a {
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: none;
+  color: white;
+  gap: 16px;
+}
+
+.footer-end p {
+  color: white;
+}
