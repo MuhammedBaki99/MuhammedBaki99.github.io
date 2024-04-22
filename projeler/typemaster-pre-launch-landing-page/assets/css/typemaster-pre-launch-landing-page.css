@@ -1,0 +1,206 @@
+@font-face {
+  font-family: barlow;
+  src: url('../fonts/Barlow-Regular.ttf');
+}
+
+@font-face {
+  font-family: barlowbold;
+  src: url('../fonts/Barlow-ExtraBold.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: barlow;
+}
+
+/* Header Codes */
+.header {
+  width: 1110px;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 89px;
+}
+
+.header h5 {
+  width: 175px;
+  background: rgba(232, 239, 242, 1);
+  text-align: center;
+  padding: 16px 27px;
+  border-radius: 10px;
+}
+
+.header h5:hover {
+  background: rgba(22, 37, 66, 1);
+  cursor: pointer;
+  color: white;
+}
+
+/****************************************/
+/* Hero Codes */
+.hero-container {
+  background-image: url('../img/bg-right.svg');
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+.hero {
+  width: 1110px;
+  margin: 61px auto;
+  column-gap: 125px;
+  display: grid;
+  grid-template-areas:
+    "hero-desc img"
+  ;
+}
+
+.hero img {
+  grid-area: img;
+  width: 540px;
+}
+
+.hero-desc {
+  grid-area: hero-desc;
+  width: 445px;
+}
+
+.hero-desc h1 {
+  font-family: barlowbold;
+  font-size: 56px;
+  font-weight: 900;
+  line-height: 56px;
+  color: rgba(22, 37, 66, 1);
+  margin-bottom: 24px;
+}
+
+.hero-desc p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  color: rgba(123, 139, 173, 1);
+  margin-bottom: 40px;
+}
+
+.pre-order {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+.pre-order a {
+  background: rgba(241, 103, 24, 1);
+  text-decoration: none;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.pre-order a:hover {
+  background: rgba(255, 155, 98, 1);
+}
+
+.pre-order p {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  margin-block: 16px;
+}
+
+/**********************************/
+/* Mec-Wireles Codes */
+.mec-wireles-container {
+  background-image: url('../img/bg-left.png');
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+.mec-wireles {
+  width: 1110px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 125px;
+  margin-bottom: 168px;
+}
+
+.mec-img {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.mec-desc {
+  padding-block: 112px;
+  width: 255px;
+}
+
+.mec-desc h3 {
+  font-family: barlowbold;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 36px;
+  margin-bottom: 27px;
+}
+
+.mec-desc p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  color: rgba(123, 139, 173, 1);
+}
+
+/***********************/
+/* FEATURES Codes */
+.features {
+  width: 1110px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  margin-bottom: 128px;
+}
+
+.features-item img {
+  margin-bottom: 48px;
+}
+
+.features-item h5 {
+  font-family: barlowbold;
+  text-align: left;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 28px;
+  color: rgba(22, 37, 66, 1);
+  margin-bottom: 24px;
+}
+
+.features-item p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: left;
+  color: rgba(123, 139, 173, 1);
+}
+
+/**********************************************/
+.footer p {
+  text-align: center;
+  margin-bottom: 39px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  color: rgba(123, 139, 173, 1);
+}
+
+.footer span {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+
+}
