@@ -1,0 +1,121 @@
+@font-face {
+    font-family: bainsley;
+    src: url('../fonts/Bainsley_Roman.otf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: bainsley;
+}
+
+.heading {
+    text-align: center;
+    width: 400px;
+    border-radius: 10px;
+    margin: 50px auto;
+    background: linear-gradient(to right, yellowgreen, transparent);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 10px;
+}
+.heading svg {
+    width: 40px;
+}
+.header {
+    background-color: yellowgreen;
+    color: white;
+    padding-block: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.svg-nedir {
+    position: relative;
+    width: 1100px;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.svg-nedir-header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    padding: 0px 10px;
+    width: 350px;
+    height: 100px;
+    border-radius: 20px;
+    transform: rotate(-90deg);
+    background: linear-gradient(to right, yellowgreen, transparent);
+}
+
+.svg-desc {
+    width: 750px;
+    font-size: 20px;
+}
+
+.utility-item svg {
+    transform: translateX(30px);
+}
+
+.svg-sprites-utility {
+    margin: 60px auto;
+    display: grid;
+    margin-inline: 30px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+
+.utility-item-desc h2 {
+    background: linear-gradient(to top, yellowgreen, transparent);
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.utility-item-desc p {
+    text-align: justify;
+    margin-top: 10px;
+}
+
+.how-to {
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    gap: 50px;
+}
+.how-to-item {
+    border: 2px solid black;
+    box-shadow: -10px -10px 10px black;
+    border-radius: 15px;
+    padding: 10px;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+}
+.how-to-item ul li{
+    width: 400px;
+    margin: 0 auto;
+    list-style-type:circle;
+    margin-top: 10px;
+}
+.output {
+  width: 1110px;
+  margin: 0 auto;
+}
+.output img {
+  border: 3px solid yellowgreen;
+  box-shadow: -10px -10px 10px yellowgreen;
+  margin-left: 30px;
+  border-radius: 20px;
+}
+.output img:nth-child(3) {
+  border: 3px solid yellowgreen;
+  margin-left: 300px;
+  margin-top: 20px;
+}
