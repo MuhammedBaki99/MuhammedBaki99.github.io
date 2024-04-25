@@ -1,0 +1,257 @@
+@font-face {
+  font-family: fraunces;
+  src: url('../fonts/Fraunces_9pt_Soft-Regular.ttf');
+}
+
+@font-face {
+  font-family: barlow;
+  src: url('../fonts/Barlow-Regular.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: inter;
+}
+
+/* Header Codes */
+.header {
+  width: 1280px;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 89px;
+  margin-bottom: 44px;
+}
+
+.header-menu {
+  display: flex;
+  gap: 40px;
+  list-style-type: none;
+}
+
+.header-menu a {
+  font-family: Barlow;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0.9230769276618958px;
+  text-align: left;
+  text-decoration: none;
+  color: rgba(131, 136, 143, 1);
+}
+
+.header-menu a:hover {
+  color: black;
+}
+
+/****************************************/
+/* Hero Codes */
+.hero {
+  width: 1280px;
+  margin: 0 auto;
+  background-image: url('../img/hero.jpg');
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-rows: repeat(1, 1fr);
+  padding: 137px 85px;
+}
+
+.hero-text {
+  width: 493px;
+  color: white;
+}
+
+.hero-text h3 {
+  font-family: fraunces;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 48px;
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.hero-text p {
+  font-family: barlow;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+}
+
+/**********************************/
+/* Collection Codes */
+.commitment {
+  width: 1110px;
+  margin: 168px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 125px;
+  align-items: center;
+}
+
+.commit-text h3 {
+  font-family: fraunces;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 48px;
+  text-align: left;
+  margin-bottom: 32px;
+}
+
+.commit-text p {
+  font-family: barlow;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  opacity: 80%;
+}
+
+/*************************************/
+/* why choose codes */
+.quality {
+  margin: 168px auto;
+  width: 1280px;
+  border-radius: 10px;
+  color: white;
+  background: rgba(44, 52, 62, 1);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding-inline: 85px;
+  gap: 125px;
+}
+
+.quality-text h2 {
+  font-family: fraunces;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 48px;
+  margin-bottom: 32px;
+}
+
+.quality-text p {
+  font-family: barlow;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 80%;
+}
+
+.quality img {
+  position: relative;
+  top: -88px;
+}
+/**********************************/
+/* Headquarters */
+.headquarters {
+  width: 1045px;
+  margin: 0 auto;
+  margin-bottom: 200px;
+}
+
+.headquarters > h3 {
+  color: rgba(131, 136, 143, 1);
+  font-family: fraunces;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 32px;
+  text-align: left;
+  margin-bottom: 80px;
+}
+
+.regions {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.region-item {
+  width: 248px;
+  margin-bottom: 64px;
+}
+
+.region-item img {
+  margin-bottom: 48px;
+}
+
+.region-item h2 {
+  font-family: fraunces;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 36px;
+  text-align: left;
+  margin-bottom: 42px;
+}
+
+.region-item p {
+  font-family: barlow;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  color: rgba(51, 61, 75, 1);
+}
+
+.how-it-works a {
+  background: rgba(14, 135, 132, 1);
+  color: white;
+  text-decoration: none;
+  padding: 15px 31px;
+  border-radius: 10px;
+  font-family: fraunces;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 25px;
+  text-align: center;
+}
+
+.how-it-works a:hover {
+  background: rgba(102, 210, 207, 1);
+}
+
+/***********************************/
+/* Footer Codes */
+.footer {
+  width: 1280px;
+  margin: 0 auto;
+  background: rgba(44, 52, 62, 1);
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  justify-items: center;
+  align-items: center;
+  padding: 47px 85px;
+}
+
+.footer-menu {
+  display: flex;
+  gap: 40px;
+  list-style-type: none;
+}
+
+.footer-menu a {
+  font-family: Barlow;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0.9230769276618958px;
+  text-align: left;
+  text-decoration: none;
+  color: rgba(131, 136, 143, 1);
+}
+
+.social svg {
+  margin-left: 24px;
+  fill: white;
+}
+
+.social svg:hover {
+  fill: rgba(253, 214, 186, 1);
+  cursor: pointer;
+}
+
+.footer-menu a:hover {
+  color: white;
+}
