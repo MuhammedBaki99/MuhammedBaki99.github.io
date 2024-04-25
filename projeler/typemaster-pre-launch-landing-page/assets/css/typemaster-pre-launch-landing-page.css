@@ -25,15 +25,16 @@
   padding-top: 89px;
 }
 
-.header h5 {
+.button a {
   width: 175px;
   background: rgba(232, 239, 242, 1);
   text-align: center;
   padding: 16px 27px;
   border-radius: 10px;
+  text-decoration: none;
 }
 
-.header h5:hover {
+.button a:hover {
   background: rgba(22, 37, 66, 1);
   cursor: pointer;
   color: white;
