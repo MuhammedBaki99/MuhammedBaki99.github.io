@@ -1,18 +1,28 @@
-@font-face {
-    font-family: quantify;
-    src: url('../fonts/Quantify.ttf');
-}
 
 @font-face {
     font-family: bainsley;
     src: url('../fonts/Bainsley_Roman.otf');
 }
 
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: white;
+}
+::-webkit-scrollbar-thumb{
+    background: rgba(102, 17, 28, 1);
+}
+::-webkit-scrollbar-thumb:hover{
+    background: rgba(102, 17, 28, 1);
+    cursor: pointer;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    transition: all .5s;
+    transition: all .2s;
     font-family: bainsley;
     scroll-behavior: smooth;
 }
@@ -34,24 +44,26 @@
     align-items: center;
     gap: 10px;
 }
-
-.urls a {
+.urls {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    list-style-type: none;
+}
+.urls li a {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
     text-decoration: none;
     color: white;
     padding: 10px;
     font-size: 20px;
 }
-
-.urls a:hover {
-    color: black;
-    border: 2px solid white;
-    border-radius: 15px;
+.urls li a:hover {
     background: white;
+    color: black;
 }
 
-.icon {
-    margin-right: 5px;
-}
 
 /*******************/
 /* Sticky Button Codes */
@@ -64,12 +76,22 @@
     list-style-type: none;
 }
 .stickybuttons li{
-    background-color: rgba(102, 17, 28, 1);
+    border: 2px solid rgba(102, 17, 28, 1);
+    background-color: white;
     padding: 10px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+    box-shadow: 0px 10px 10px gray;
+    cursor: pointer;
+}
+.stickybuttons li:hover{
+    border: 2px solid  white;
+    background-color: rgba(102, 17, 28, 1);
 }
 .stickybuttons li a{
+    color: rgba(102, 17, 28, 1);
+}
+.stickybuttons li:hover a{
     color: white;
 }
 /****************************/
@@ -244,6 +266,8 @@
 }
 
 .project {
+    display: grid;
+    grid-template-rows: 300px 100px;
     width: 300px;
     border: 2px solid black;
     background: white;
@@ -252,6 +276,11 @@
     padding: 30px;
     box-shadow: -5px -5px black;
     text-align: center;
+    cursor: pointer;
+}
+.project:hover {
+    transform: translate(-5px, -5px);
+    box-shadow: none;
 }
 
 .project img {
@@ -270,94 +299,50 @@
 }
 
 /******************/
-/* Section 04 Codes */
-
-/* page 3 codes */
-.section04 {
+/* Blog Codes */
+.blog {
+    margin-block: 40px;
+}
+.blogs {
     width: 1300px;
+    margin-inline: auto;
     display: flex;
-    justify-content: center;
-    padding-left: 200px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    gap: 10px;
+    flex-wrap: wrap;
+    gap: 20px;
 }
-
-.section04 h3 {
-    font-size: 40px;
-    font-weight: 600;
+.coming-soon {
+    font-size: 150px;
+    margin: 0 auto;
 }
-
-.section04 h6 {
-    font-size: 20px;
-    margin-bottom: 16px;
-}
-
-.obj4 h3 {
-    width: 589px;
-}
-
-.obj5 {
-    margin-left: 96px;
-}
-
-.obj5 input {
-    width: 445px;
-    height: 48px;
-    border: none;
-    border-bottom: 1px solid rgba(196, 196, 196, 1);
-    padding: 0 10px;
-    margin-bottom: 16px;
-}
-
-.obj5 input:focus {
-    color: rgba(102, 17, 28, 1);
-    border-bottom: 4px solid rgba(102, 17, 28, 1);
-    outline: none;
-    border-radius: 20px;
-}
-
-.obj5 textarea:focus {
-    color: rgba(102, 17, 28, 1);
-    border-bottom: 4px solid rgba(102, 17, 28, 1);
-    outline: none;
-    border-radius: 20px;
-}
-
-.obj5 textarea {
-    width: 445px;
-    height: 113px;
-    border: none;
-    border-bottom: 1px solid rgba(196, 196, 196, 1);
-    padding: 0 10px;
-    margin-bottom: 16px;
-}
-
-.obj5 button {
-    background-color: rgba(102, 17, 28, 1);
-    color: white;
-    border-radius: 50px;
-    width: 445px;
-    height: 48px;
-    border: 1px solid black;
-    padding: 8px 47px 8px 47px;
-    cursor: pointer;
-    box-shadow: -5px -5px black;
-}
-
-.obj5 button:hover {
-    background-color: white;
-    color: rgba(102, 17, 28, 1);
+.blog-item {
+    width: 300px;
+    border: 2px solid black;
+    background: white;
+    color: black;
+    border-radius: 10px;
+    padding: 30px;
     box-shadow: -5px -5px rgba(102, 17, 28, 1);
-    border-radius: 50px;
-    width: 445px;
-    height: 48px;
-    border: 1px solid rgba(102, 17, 28, 1);
-    padding: 8px 47px 8px 47px;
-    cursor: pointer;
+    text-align: center;
+}
+.blog-item:hover {
+    transform: translate(-5px, -5px);
+    box-shadow: none;
 }
 
-/***********************************/
+.blog-item img {
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.blog-item a {
+    color: black;
+    text-decoration: none;
+}
+
+.blog-item a:hover {
+    color: rgba(102, 17, 28, 1);
+    text-decoration: none;
+}
 /**************************/
 /* footer Codes */
 .footer {
@@ -376,22 +361,5 @@
     gap: 10px;
 }
 
-.urls a {
-    text-decoration: none;
-    color: white;
-    padding: 10px;
-    font-size: 20px;
-}
-
-.urls a:hover {
-    color: black;
-    border: 2px solid white;
-    border-radius: 15px;
-    background: white;
-}
-
-.icon {
-    margin-right: 5px;
-}
 
 /*******************/
