@@ -1,0 +1,1 @@
+alert("ödev1 e hoşgeldin")
